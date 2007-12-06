@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - PHP interface to TinyURL's API
 Summary(pl.UTF-8):	%{_pearname} - interfejs PHP do API serwisu TinyURL
 Name:		php-pear-%{_pearname}
-Version:	0.1.0
+Version:	0.1.2
 Release:	1
 License:	New BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	de78e66525c3c43d37b92ef51a29f4c1
+# Source0-md5:	40cf7a8225ff55db877df9ac3f9f6cd1
 URL:		http://pear.php.net/package/Services_TinyURL/
 BuildRequires:	php-pear-PEAR-core
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
