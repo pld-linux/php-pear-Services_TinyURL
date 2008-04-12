@@ -26,9 +26,9 @@ up destinations of given TinyURL's.
 In PEAR status of this package is: %{_status}.
 
 %description -l pl.UTF-8
-Interfejs ten umożliwia tworzenie malutkich URLi (TinyURL) z
+Interfejs ten umożliwia tworzenie malutkich URL-i (TinyURL) z
 wykorzystaniem API tego serwisu, jak również wyszukiwania adresów
-docelowych już istniejących adresów.
+docelowych już istniejących adresów TinyURL.
 
 Ta klasa ma w PEAR status: %{_status}.
 
