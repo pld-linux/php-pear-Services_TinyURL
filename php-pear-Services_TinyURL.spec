@@ -11,7 +11,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	40cf7a8225ff55db877df9ac3f9f6cd1
 URL:		http://pear.php.net/package/Services_TinyURL/
-BuildRequires:	php-pear-PEAR-core
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-curl
