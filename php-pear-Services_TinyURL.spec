@@ -1,11 +1,11 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	Services_TinyURL
+%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - PHP interface to TinyURL's API
 Summary(pl.UTF-8):	%{_pearname} - interfejs PHP do API serwisu TinyURL
 Name:		php-pear-%{_pearname}
 Version:	0.1.2
-Release:	4
+Release:	5
 License:	New BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -14,7 +14,7 @@ URL:		http://pear.php.net/package/Services_TinyURL/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
-Requires:	php-curl
+Requires:	php(curl)
 Requires:	php-pear
 Obsoletes:	php-pear-Services_TinyURL-tests
 BuildArch:	noarch
