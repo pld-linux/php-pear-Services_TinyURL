@@ -1,6 +1,5 @@
 %define		_status		beta
 %define		_pearname	Services_TinyURL
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - PHP interface to TinyURL's API
 Summary(pl.UTF-8):	%{_pearname} - interfejs PHP do API serwisu TinyURL
 Name:		php-pear-%{_pearname}
